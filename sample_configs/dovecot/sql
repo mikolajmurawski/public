@@ -1,0 +1,4 @@
+driver = mysql
+connect = host={db_host_ip_address} dbname={db_name} user={db_username} password={db_user_password}
+default_pass_scheme = plain
+password_query = SELECT password FROM users WHERE email = '%u'
